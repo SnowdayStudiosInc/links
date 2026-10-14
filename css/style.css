@@ -81,8 +81,9 @@
 .avatar {
 	width: 8rem;             /* 128px */
 	height: 8rem;
-	border-radius: 50%;
-	object-fit: cover;
+	border-radius: 0%;
+	object-fit: contain;
+	object-position: center;
 	background-position: center;
 	margin-bottom: var(--spacing-l);
 	margin-left: auto;
@@ -189,7 +190,7 @@ a:hover {
 
   /* Modifier for rounded avatar */
   .avatar--rounded {
-	border-radius: 50%;
+	border-radius: 0%;
   }
 
   /* Modifier for slightly rounded corners */
